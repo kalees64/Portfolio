@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+body{
+    max-width: 800px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    margin: 0 auto;
+}
+header{
+    background:linear-gradient(45deg,red,orange,yellow);
+    color: white;
+}
+main{
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    padding: 5%;
+}
+div, article{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+}
+section{
+    display: none;
+}
+section article{
+    /* display: none; */
+    position: absolute;
+    background-color: aliceblue;
+    width: 80%;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    top: 10%;
+    left: 10%;
+    line-height: 2;
+    border: 2px solid skyblue;
+}
+section article button{
+    display: block;
+    background-color: aliceblue;
+    border-color: skyblue;
+}
+aside h1{
+    font-size: 2rem;
+}
+section article button:hover{
+    border-color: aliceblue;
+}
+
+
+
+
+button{
+    font: inherit;
+    cursor: pointer;
+    display: block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+button:hover{
+    background:linear-gradient(45deg,red,orange,yellow);
+    border: 1px solid white;
+    color: white;
+}
+footer{
+    background:linear-gradient(45deg,red,orange,yellow);
+    color: white;
+    position: sticky;
+}
+@media screen and (max-width:576px){
+    html{
+        font-size: .8rem;
+    }
+}
+@media screen and (min-width:576px){
+    html{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:768px){
+    html{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width:992px){
+    html{
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width:1200px){
+    html{
+        font-size: 1.4rem;
+    }
+}
