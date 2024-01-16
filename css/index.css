@@ -105,6 +105,7 @@ footer{
     }
     header nav ul{
         gap: 20px;
+        flex-direction: column;
     }
     main{
         flex-direction: column;
