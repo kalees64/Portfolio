@@ -81,3 +81,54 @@ footer{
     position: sticky;
     padding: 10px;
 }
+
+@media screen and (max-width:576px){
+    html{
+        font-size: 1.2rem;
+    }
+    header{
+        flex-direction: column;
+        gap :10px;
+    }
+    header nav ul{
+        gap: 20px;
+    }
+    main{
+        flex-direction: column;
+    }
+    main article{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:768px){
+    html{
+        font-size: 1.3rem;
+    }
+    header{
+        flex-direction: column;
+        gap :10px;
+    }
+    header nav ul{
+        gap: 20px;
+    }
+    main{
+        flex-direction: column;
+    }
+    main article{
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:992px){
+    html{
+        font-size: 1.3rem;
+    }
+    header{
+        flex-direction: column;
+        gap :10px;
+    }
+    header nav ul{
+        gap: 20px;
+    }
+}

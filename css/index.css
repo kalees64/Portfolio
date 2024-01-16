@@ -27,7 +27,7 @@ header{
     align-items: center;
     flex-wrap: wrap;
     background-color: rgba(220, 220, 220, 0.164);
-    border-bottom: 3px solid rgba(0, 0, 255, 0.3);
+    /* border-bottom: 3px solid rgba(0, 0, 255, 0.3); */
     padding: 10px;
 }
 header p{
@@ -48,7 +48,7 @@ a{
     color: white;
 }
 main{
-    margin: 0 auto;
+    margin: 3px auto;
     width: 80%;
     flex-grow: 1;
     background-color: rgba(220, 220, 220, 0.164);
@@ -90,7 +90,53 @@ footer{
     width: 80%;
     text-align: center;
     background-color: rgba(220, 220, 220, 0.164);
-    border-top: 3px solid rgba(0, 0, 255, 0.3);
+    /* border-top: 3px solid rgba(0, 0, 255, 0.3); */
     position: sticky;
     padding: 10px;
+}
+
+@media screen and (max-width:576px){
+    html{
+        font-size: 1.2rem;
+    }
+    header{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    header nav ul{
+        gap: 20px;
+    }
+    main{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:768px){
+    html{
+        font-size: 1.3rem;
+    }
+    header{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    header nav ul{
+        gap: 20px;
+    }
+    main{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:992px){
+    html{
+        font-size: 1.3rem;
+    }
+    header{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    header nav ul{
+        gap: 20px;
+    }
+    main{
+        flex-direction: column;
+    }
 }
