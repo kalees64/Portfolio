@@ -82,6 +82,14 @@ footer{
     padding: 10px;
 }
 
+li:hover{
+    /* border-bottom: 2px solid white; */
+    text-shadow: 3px 3px 2px black;
+}
+main article:hover{
+    background-color: rgba(220, 220, 220, 0.74);
+}
+
 @media screen and (max-width:576px){
     html{
         font-size: 1.2rem;
@@ -91,6 +99,7 @@ footer{
         gap :10px;
     }
     header nav ul{
+        flex-direction: column;
         gap: 20px;
     }
     main{
