@@ -105,12 +105,17 @@ li:hover{
         font-size: 1.2rem;
     }
     header{
-        flex-direction: column;
+        /* flex-direction: column; */
         row-gap: 10px;
+        width: 80%;
     }
     header nav ul{
-        gap: 20px;
-        flex-direction: column;
+        width: 40%;
+        margin: 0 auto;
+    }
+    header nav ul li{
+        font-size: 15px;
+        padding: 0;
     }
     main{
         flex-direction: column;
