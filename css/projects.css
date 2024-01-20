@@ -72,6 +72,9 @@ main article{
     border: 0;
     border-radius: 0px 0px 50px 50px;
 }
+main article p a{
+    color: black;
+}
 footer{
     margin: 0 auto;
     width: 80%;
