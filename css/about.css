@@ -121,10 +121,10 @@ li:hover{
         flex-direction: column;
     }
     section aside h1{
-        font-size: 1.2rem;
+        font-size: .8rem;
     }
     section aside article{
-        font-size: .8rem;
+        font-size: .6rem;
     }
     section figure img{
         width: 200px;
