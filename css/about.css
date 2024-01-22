@@ -93,6 +93,45 @@ footer{
     position: sticky;
     padding: 10px;
 }
+.div{
+    padding: 30px;
+    margin: 0;
+    display: block;
+}
+.head{
+    background-color: rgba(220, 220, 220, 0.64);
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px deepskyblue;
+    margin-top: 10px;
+}
+details{
+    line-height: 1.5;
+}
+.content{
+    margin-top: 10px;
+    padding:10px;
+    background-color: rgba(0, 0, 200, 0.3);
+    border-radius: 10px;
+}
+.skill-list{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.list{
+    list-style-type: none;
+}
+.item{
+    border: 2px solid lightskyblue;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px deepskyblue;
+}
 
 
 li:hover{
