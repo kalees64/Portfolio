@@ -99,7 +99,7 @@ function equals(){
             total = total + num;
             // console.log(total) 
         })
-        out = total;
+        out = total.toString();
         total =0;
         return display.textContent = out
     }
@@ -113,7 +113,7 @@ function equals(){
             total = total * num;
             console.log(total) 
         })
-        out = total;
+        out = total.toString();
         total =0;
         return display.textContent = out
     }
@@ -131,7 +131,7 @@ function equals(){
             }
             console.log(total) 
         })
-        out = total;
+        out = total.toString();
         total = 0;
         return display.textContent = out
     }
@@ -149,7 +149,7 @@ function equals(){
             }
             console.log(total) 
         })
-        out = total;
+        out = total.toString();
         total = 0;
         return display.textContent = out
     }
