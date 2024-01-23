@@ -16,6 +16,7 @@ let btnMul = document.getElementById("x");
 let btnDiv = document.getElementById("/");
 let btnEqual = document.getElementById("=");
 let btnMod = document.getElementById("%");
+let btnPoint = document.getElementById("dot");
 
 function btnOne(){
     out+= `1`
@@ -73,8 +74,16 @@ function btnDivision(){
     out+=`/`
     return display.textContent = out
 }
-function btnRemove(){
+function btnClear(){
     out = ``
+    return display.textContent = out
+}
+function btnDot(){
+    out += `.`
+    return display.textContent = out
+}
+function btnRemove(){
+    out = out.slice(0,out.length-1);
     return display.textContent = out
 }
 
