@@ -60,17 +60,17 @@ main{
     gap: 10px;
 }
 main article{
-    padding: 10px;
+    /* padding: 10px; */
     background-color: rgba(240, 248, 255, 0.349);
     border: 1px solid black;
-    height: 100px;
+    height: 50px;
     width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
     outline: 0;
     border: 0;
-    border-radius: 0px 0px 50px 50px;
+    border-radius:10px;
 }
 main article p a{
     color: black;
