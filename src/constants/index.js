@@ -30,6 +30,10 @@ import {
   firstTestimonial,
   secondTestimonial,
   thirdTestimonial,
+  spinsoft,
+  assaycr,
+  angular,
+  ngrx,
 } from "../assets";
 
 // Import Tekisky separately
@@ -87,25 +91,33 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "gsap",
-    icon: gsap,
+    name: "Angular",
+    icon: angular,
   },
-  {
-    name: "framer",
-    icon: framer,
-  },
+  // {
+  //   name: "gsap",
+  //   icon: gsap,
+  // },
+  // {
+  //   name: "framer",
+  //   icon: framer,
+  // },
 
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "Redux Toolkit",
     icon: redux,
+  },
+  {
+    name: "NGRX Store",
+    icon: ngrx,
   },
   {
     name: "Tailwind CSS",
@@ -123,10 +135,10 @@ const technologies = [
     name: "Express Js",
     icon: express,
   },
-  {
-    name: "AWS",
-    icon: aws,
-  },
+  // {
+  //   name: "AWS",
+  //   icon: aws,
+  // },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -144,16 +156,29 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
-    icon: tekisky,
-    iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    title: "Full Stack Developer",
+    company_name: "Assay Clinical Research",
+    icon: assaycr,
+    iconBg: "#E6DEDD",
+    date: "Dec 2024 - Present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked on two major projects: EMR (Electronic Medical Record) and CTMS (Clinical Trial Management System).",
+      "Developed and maintained modules for patient data management, clinical trial tracking, and user role management.",
+      "Integrated MongoDB and MySQL for structured and unstructured data storage.",
+      "Collaborated with stakeholders, IT teams, and QA for efficient feature delivery and bug resolution.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "SpinSoft",
+    icon: spinsoft,
+    iconBg: "#E6DEDD",
+    date: "Sep 2024 - Dec 2024",
+    points: [
+      "Contributed to the development of web-based solutions using React and Node.js.",
+      "Built reusable components and implemented efficient state management strategies.",
+      "Assisted in debugging and enhancing application performance.",
+      "Collaborated with senior developers in Agile environments and participated in daily stand-ups.",
     ],
   },
 ];

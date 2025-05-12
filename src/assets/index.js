@@ -29,6 +29,10 @@ import threejs from "./tech/threejs.svg";
 import firstTestimonial from "./Tars Ken.webp";
 import secondTestimonial from "./image.webp";
 import thirdTestimonial from "./third testimonial.webp";
+import spinsoft from "./spinsoft.png";
+import assaycr from "./assaycr.png";
+import angular from "./angular.png";
+import ngrx from "./ngrx.png";
 
 export {
   logo,
@@ -62,4 +66,8 @@ export {
   redux,
   tailwind,
   threejs,
+  spinsoft,
+  assaycr,
+  angular,
+  ngrx,
 };
