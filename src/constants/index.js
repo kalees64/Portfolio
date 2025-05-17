@@ -34,6 +34,12 @@ import {
   assaycr,
   angular,
   ngrx,
+  java,
+  python,
+  flutter,
+  nest,
+  typescript,
+  bootstrap,
 } from "../assets";
 
 // Import Tekisky separately
@@ -74,84 +80,39 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Angular",
-    icon: angular,
-  },
-  // {
-  //   name: "gsap",
-  //   icon: gsap,
-  // },
-  // {
-  //   name: "framer",
-  //   icon: framer,
-  // },
+  // Frontend Frameworks & Libraries
+  { name: "HTML 5", icon: html },
+  { name: "CSS 3", icon: css },
+  { name: "JavaScript", icon: javascript },
+  { name: "TypeScript", icon: typescript },
+  { name: "React JS", icon: reactjs },
+  { name: "Angular", icon: angular },
+  { name: "Bootstrap", icon: bootstrap },
+  // { name: "Material Ui", icon: mui },
+  { name: "Tailwind CSS", icon: tailwind },
 
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "NGRX Store",
-    icon: ngrx,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Material Ui",
-    icon: mui,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "Express Js",
-    icon: express,
-  },
-  // {
-  //   name: "AWS",
-  //   icon: aws,
-  // },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "MySql",
-    icon: mysql,
-  },
+  // State Management
+  { name: "Redux Toolkit", icon: redux },
+  { name: "NGRX Store", icon: ngrx },
 
-  {
-    name: "git",
-    icon: git,
-  },
+  // Backend
+  { name: "Node JS", icon: nodejs },
+  { name: "Express Js", icon: express },
+  { name: "Nest Js", icon: nest },
+
+  // Databases
+  { name: "MongoDB", icon: mongodb },
+  { name: "MySql", icon: mysql },
+
+  // Programming Languages
+  { name: "Java", icon: java },
+  { name: "Python", icon: python },
+
+  // Mobile Development
+  { name: "Flutter", icon: flutter },
+
+  // Tools
+  { name: "git", icon: git },
 ];
 
 const experiences = [

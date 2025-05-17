@@ -33,6 +33,12 @@ import spinsoft from "./spinsoft.png";
 import assaycr from "./assaycr.png";
 import angular from "./angular.png";
 import ngrx from "./ngrx.png";
+import java from "./java.png";
+import python from "./python.png";
+import flutter from "./flutter.png";
+import nest from "./nest.png";
+import typescript from "./typescript.png";
+import bootstrap from "./bootstrap.png";
 
 export {
   logo,
@@ -70,4 +76,10 @@ export {
   assaycr,
   angular,
   ngrx,
+  java,
+  python,
+  flutter,
+  nest,
+  typescript,
+  bootstrap,
 };

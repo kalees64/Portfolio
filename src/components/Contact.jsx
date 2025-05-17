@@ -15,6 +15,10 @@ const Contact = () => {
     message: "",
   });
 
+  const serviceId = "service_5r3vzud";
+  const templateId = "template_qp60r3t";
+  const publicKey = "ug3WhgksqEAp23fRL";
+
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -33,16 +37,16 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        serviceId,
+        templateId,
         {
-          from_name: form.name,
+          name: form.name,
           to_name: "Kaleeswaran Vairavarajan",
-          from_email: form.email,
+          email: form.email,
           to_email: "vkalees64@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        publicKey
       )
       .then(
         () => {
