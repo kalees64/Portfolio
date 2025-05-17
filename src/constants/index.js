@@ -120,7 +120,7 @@ const technologies = [
 const experiences = [
   {
     title: "Full Stack Developer",
-    company_name: "Assay Clinical Research",
+    company_name: "Assay Clinical Research Pvt Ltd",
     icon: assaycr,
     iconBg: "#E6DEDD",
     date: "Dec 2024 - Present",
@@ -133,7 +133,7 @@ const experiences = [
   },
   {
     title: "Full Stack Developer",
-    company_name: "SpinSoft",
+    company_name: "SpinSoft Learning Solutions Pvt Ltd",
     icon: spinsoft,
     iconBg: "#E6DEDD",
     date: "Sep 2024 - Dec 2024",
