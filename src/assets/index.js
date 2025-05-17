@@ -39,6 +39,7 @@ import flutter from "./flutter.png";
 import nest from "./nest.png";
 import typescript from "./typescript.png";
 import bootstrap from "./bootstrap.png";
+import fastapi from "./fastapi.png";
 
 export {
   logo,
@@ -82,4 +83,5 @@ export {
   nest,
   typescript,
   bootstrap,
+  fastapi,
 };

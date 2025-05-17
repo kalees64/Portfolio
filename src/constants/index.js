@@ -40,6 +40,7 @@ import {
   nest,
   typescript,
   bootstrap,
+  fastapi,
 } from "../assets";
 
 // Import Tekisky separately
@@ -99,6 +100,7 @@ const technologies = [
   { name: "Node JS", icon: nodejs },
   { name: "Express Js", icon: express },
   { name: "Nest Js", icon: nest },
+  { name: "FastAPI", icon: fastapi },
 
   // Databases
   { name: "MongoDB", icon: mongodb },
